@@ -45,4 +45,4 @@ class SwankServer < NSObject
 var listener = [[SwankServer alloc] init];
 var socket = [[SwankSocket alloc] init];
 [socket setDelegate:listener];
-var success = [socket acceptOnPort:31337 error:null];
+var success = [socket acceptOnPort:4005 error:null];
