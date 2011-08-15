@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* JSCocoaSwankAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* JSCocoaSwankAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		F1513B0013F9A3D900AAC592 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1513AFF13F9A3D900AAC592 /* Security.framework */; };
+		F1513BCE13F9A61A00AAC592 /* BridgeSupportController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1513BC013F9A61A00AAC592 /* BridgeSupportController.m */; };
+		F1513BD113F9A61A00AAC592 /* JSCocoaController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1513BC513F9A61A00AAC592 /* JSCocoaController.m */; };
+		F1513BD213F9A61A00AAC592 /* JSCocoaFFIArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = F1513BC713F9A61A00AAC592 /* JSCocoaFFIArgument.m */; };
+		F1513BD313F9A61A00AAC592 /* JSCocoaFFIClosure.m in Sources */ = {isa = PBXBuildFile; fileRef = F1513BC913F9A61A00AAC592 /* JSCocoaFFIClosure.m */; };
+		F1513BD413F9A61A00AAC592 /* JSCocoaLib.m in Sources */ = {isa = PBXBuildFile; fileRef = F1513BCB13F9A61A00AAC592 /* JSCocoaLib.m */; };
+		F1513BD513F9A61A00AAC592 /* JSCocoaPrivateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F1513BCD13F9A61A00AAC592 /* JSCocoaPrivateObject.m */; };
+		F1513BDF13F9A64600AAC592 /* JSCocoaHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F1513BDE13F9A64600AAC592 /* JSCocoaHelper.m */; };
+		F1513BEA13F9A65700AAC592 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1513BE913F9A65700AAC592 /* JavaScriptCore.framework */; };
+		F1513E3013F9AACB00AAC592 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F1513E2F13F9AACB00AAC592 /* AsyncSocket.m */; };
+		F151422F13F9E2DF00AAC592 /* swank-lisp.js in Resources */ = {isa = PBXBuildFile; fileRef = F1513EB013F9AD9E00AAC592 /* swank-lisp.js */; };
+		F151423013F9E2DF00AAC592 /* swank-handler.js in Resources */ = {isa = PBXBuildFile; fileRef = F1513EB113F9AD9E00AAC592 /* swank-handler.js */; };
+		F151423113F9E2DF00AAC592 /* swank-protocol.js in Resources */ = {isa = PBXBuildFile; fileRef = F1513EB213F9AD9E00AAC592 /* swank-protocol.js */; };
+		F151423213F9E2DF00AAC592 /* swank-server.js in Resources */ = {isa = PBXBuildFile; fileRef = F1513B3013F9A46E00AAC592 /* swank-server.js */; };
+		F151423313F9E2DF00AAC592 /* swank-utils.js in Resources */ = {isa = PBXBuildFile; fileRef = F151422B13F9E2B300AAC592 /* swank-utils.js */; };
+		F151423413F9E2DF00AAC592 /* class.js in Resources */ = {isa = PBXBuildFile; fileRef = F1513BC113F9A61A00AAC592 /* class.js */; };
+		F151423513F9E2DF00AAC592 /* jslint-jscocoa.js in Resources */ = {isa = PBXBuildFile; fileRef = F1513BC213F9A61A00AAC592 /* jslint-jscocoa.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* JSCocoaSwankAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCocoaSwankAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* JSCocoaSwankAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCocoaSwankAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* JSCocoaSwank_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCocoaSwank_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* JSCocoaSwank-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JSCocoaSwank-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* JSCocoaSwank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSCocoaSwank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1513AFF13F9A3D900AAC592 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F1513B3013F9A46E00AAC592 /* swank-server.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "swank-server.js"; sourceTree = "<group>"; };
+		F1513BBF13F9A61A00AAC592 /* BridgeSupportController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeSupportController.h; sourceTree = "<group>"; };
+		F1513BC013F9A61A00AAC592 /* BridgeSupportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeSupportController.m; sourceTree = "<group>"; };
+		F1513BC113F9A61A00AAC592 /* class.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = class.js; sourceTree = "<group>"; };
+		F1513BC213F9A61A00AAC592 /* jslint-jscocoa.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jslint-jscocoa.js"; sourceTree = "<group>"; };
+		F1513BC313F9A61A00AAC592 /* JSCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCocoa.h; sourceTree = "<group>"; };
+		F1513BC413F9A61A00AAC592 /* JSCocoaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCocoaController.h; sourceTree = "<group>"; };
+		F1513BC513F9A61A00AAC592 /* JSCocoaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCocoaController.m; sourceTree = "<group>"; };
+		F1513BC613F9A61A00AAC592 /* JSCocoaFFIArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCocoaFFIArgument.h; sourceTree = "<group>"; };
+		F1513BC713F9A61A00AAC592 /* JSCocoaFFIArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCocoaFFIArgument.m; sourceTree = "<group>"; };
+		F1513BC813F9A61A00AAC592 /* JSCocoaFFIClosure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCocoaFFIClosure.h; sourceTree = "<group>"; };
+		F1513BC913F9A61A00AAC592 /* JSCocoaFFIClosure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCocoaFFIClosure.m; sourceTree = "<group>"; };
+		F1513BCA13F9A61A00AAC592 /* JSCocoaLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCocoaLib.h; sourceTree = "<group>"; };
+		F1513BCB13F9A61A00AAC592 /* JSCocoaLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCocoaLib.m; sourceTree = "<group>"; };
+		F1513BCC13F9A61A00AAC592 /* JSCocoaPrivateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCocoaPrivateObject.h; sourceTree = "<group>"; };
+		F1513BCD13F9A61A00AAC592 /* JSCocoaPrivateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCocoaPrivateObject.m; sourceTree = "<group>"; };
+		F1513BDD13F9A64600AAC592 /* JSCocoaHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCocoaHelper.h; sourceTree = "<group>"; };
+		F1513BDE13F9A64600AAC592 /* JSCocoaHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCocoaHelper.m; sourceTree = "<group>"; };
+		F1513BE913F9A65700AAC592 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F1513E2E13F9AACB00AAC592 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		F1513E2F13F9AACB00AAC592 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		F1513EB013F9AD9E00AAC592 /* swank-lisp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "swank-lisp.js"; sourceTree = "<group>"; };
+		F1513EB113F9AD9E00AAC592 /* swank-handler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "swank-handler.js"; sourceTree = "<group>"; };
+		F1513EB213F9AD9E00AAC592 /* swank-protocol.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "swank-protocol.js"; sourceTree = "<group>"; };
+		F151422B13F9E2B300AAC592 /* swank-utils.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "swank-utils.js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				F1513B0013F9A3D900AAC592 /* Security.framework in Frameworks */,
+				F1513BEA13F9A65700AAC592 /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* JSCocoaSwankAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* JSCocoaSwankAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				F1513AFF13F9A3D900AAC592 /* Security.framework */,
+				F1513BE913F9A65700AAC592 /* JavaScriptCore.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* JSCocoaSwank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* JSCocoaSwank */ = {
+			isa = PBXGroup;
+			children = (
+				F151426B13F9E4A600AAC592 /* cocoaasyncsocket */,
+				F151421F13F9E26E00AAC592 /* swank */,
+				F1513BBE13F9A61A00AAC592 /* JSCocoa */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = JSCocoaSwank;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* JSCocoaSwank_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* JSCocoaSwank-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1513BBE13F9A61A00AAC592 /* JSCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				F1513BDD13F9A64600AAC592 /* JSCocoaHelper.h */,
+				F1513BDE13F9A64600AAC592 /* JSCocoaHelper.m */,
+				F1513BBF13F9A61A00AAC592 /* BridgeSupportController.h */,
+				F1513BC013F9A61A00AAC592 /* BridgeSupportController.m */,
+				F1513BC113F9A61A00AAC592 /* class.js */,
+				F1513BC213F9A61A00AAC592 /* jslint-jscocoa.js */,
+				F1513BC313F9A61A00AAC592 /* JSCocoa.h */,
+				F1513BC413F9A61A00AAC592 /* JSCocoaController.h */,
+				F1513BC513F9A61A00AAC592 /* JSCocoaController.m */,
+				F1513BC613F9A61A00AAC592 /* JSCocoaFFIArgument.h */,
+				F1513BC713F9A61A00AAC592 /* JSCocoaFFIArgument.m */,
+				F1513BC813F9A61A00AAC592 /* JSCocoaFFIClosure.h */,
+				F1513BC913F9A61A00AAC592 /* JSCocoaFFIClosure.m */,
+				F1513BCA13F9A61A00AAC592 /* JSCocoaLib.h */,
+				F1513BCB13F9A61A00AAC592 /* JSCocoaLib.m */,
+				F1513BCC13F9A61A00AAC592 /* JSCocoaPrivateObject.h */,
+				F1513BCD13F9A61A00AAC592 /* JSCocoaPrivateObject.m */,
+			);
+			path = JSCocoa;
+			sourceTree = "<group>";
+		};
+		F151421F13F9E26E00AAC592 /* swank */ = {
+			isa = PBXGroup;
+			children = (
+				F1513EB013F9AD9E00AAC592 /* swank-lisp.js */,
+				F1513EB113F9AD9E00AAC592 /* swank-handler.js */,
+				F1513EB213F9AD9E00AAC592 /* swank-protocol.js */,
+				F1513B3013F9A46E00AAC592 /* swank-server.js */,
+				F151422B13F9E2B300AAC592 /* swank-utils.js */,
+			);
+			path = swank;
+			sourceTree = "<group>";
+		};
+		F151426B13F9E4A600AAC592 /* cocoaasyncsocket */ = {
+			isa = PBXGroup;
+			children = (
+				F1513E2E13F9AACB00AAC592 /* AsyncSocket.h */,
+				F1513E2F13F9AACB00AAC592 /* AsyncSocket.m */,
+			);
+			path = cocoaasyncsocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* JSCocoaSwank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "JSCocoaSwank" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSCocoaSwank;
+			productInstallPath = "$(HOME)/Applications";
+			productName = JSCocoaSwank;
+			productReference = 8D1107320486CEB800E47090 /* JSCocoaSwank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "JSCocoaSwank" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* JSCocoaSwank */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* JSCocoaSwank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F151422F13F9E2DF00AAC592 /* swank-lisp.js in Resources */,
+				F151423013F9E2DF00AAC592 /* swank-handler.js in Resources */,
+				F151423113F9E2DF00AAC592 /* swank-protocol.js in Resources */,
+				F151423213F9E2DF00AAC592 /* swank-server.js in Resources */,
+				F151423313F9E2DF00AAC592 /* swank-utils.js in Resources */,
+				F151423413F9E2DF00AAC592 /* class.js in Resources */,
+				F151423513F9E2DF00AAC592 /* jslint-jscocoa.js in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* JSCocoaSwankAppDelegate.m in Sources */,
+				F1513BCE13F9A61A00AAC592 /* BridgeSupportController.m in Sources */,
+				F1513BD113F9A61A00AAC592 /* JSCocoaController.m in Sources */,
+				F1513BD213F9A61A00AAC592 /* JSCocoaFFIArgument.m in Sources */,
+				F1513BD313F9A61A00AAC592 /* JSCocoaFFIClosure.m in Sources */,
+				F1513BD413F9A61A00AAC592 /* JSCocoaLib.m in Sources */,
+				F1513BD513F9A61A00AAC592 /* JSCocoaPrivateObject.m in Sources */,
+				F1513BDF13F9A64600AAC592 /* JSCocoaHelper.m in Sources */,
+				F1513E3013F9AACB00AAC592 /* AsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JSCocoaSwank_Prefix.pch;
+				INFOPLIST_FILE = "JSCocoaSwank-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "-lffi";
+				PRODUCT_NAME = JSCocoaSwank;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JSCocoaSwank_Prefix.pch;
+				INFOPLIST_FILE = "JSCocoaSwank-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "-lffi";
+				PRODUCT_NAME = JSCocoaSwank;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "JSCocoaSwank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "JSCocoaSwank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
