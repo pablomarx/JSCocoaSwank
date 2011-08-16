@@ -326,17 +326,7 @@ function inspect(obj, showHidden, depth, colors) {
       return prev + cur.length + 1;
     }, 0);
 
-    if (length > (require('readline').columns || 50)) {
-      output = braces[0] +
-               (base === '' ? '' : base + '\n ') +
-               ' ' +
-               output.join(',\n  ') +
-               ' ' +
-               braces[1];
-
-    } else {
-      output = braces[0] + base + ' ' + output.join(', ') + ' ' + braces[1];
-    }
+    output = braces[0] + base + ' ' + output.join(', ') + ' ' + braces[1];
 
     return output;
   }
