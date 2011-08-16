@@ -263,12 +263,10 @@ DefaultRemote.prototype.id = function id () {
 DefaultRemote.prototype.evaluate = function evaluate (id, str) {
   var r;
   try {
-    if (__jsc__ != null) {
-      r = __jsc__.eval(str);
-    }
-    else {
+    //if (__jsc__ != null)
+    //  r = __jsc__.eval(str);
+    //else
       r = eval(str);
-    }
   } catch (e) {
     r = undefined;
     this.output(e.stack);
