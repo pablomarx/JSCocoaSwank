@@ -1,6 +1,6 @@
 JSCocoaSwank: Because what fun is life without a REPL?
 
-![Screenshot of JSCocoaSwank](http://i.imgur.com/34r9f.png)
+![Screenshot of JSCocoaSwank](http://i.imgur.com/bgKCy.png)
 
 JSCocoaSwank provides [SLIME](http://common-lisp.net/project/slime/) REPL development tools for [JSCocoa](https://github.com/parmanoir/jscocoa/).
 
