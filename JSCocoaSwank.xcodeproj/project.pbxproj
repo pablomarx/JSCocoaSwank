@@ -29,6 +29,7 @@
 		F151423313F9E2DF00AAC592 /* swank-utils.js in Resources */ = {isa = PBXBuildFile; fileRef = F151422B13F9E2B300AAC592 /* swank-utils.js */; };
 		F151423413F9E2DF00AAC592 /* class.js in Resources */ = {isa = PBXBuildFile; fileRef = F1513BC113F9A61A00AAC592 /* class.js */; };
 		F151423513F9E2DF00AAC592 /* jslint-jscocoa.js in Resources */ = {isa = PBXBuildFile; fileRef = F1513BC213F9A61A00AAC592 /* jslint-jscocoa.js */; };
+		F151429713FAD42300AAC592 /* completions.js in Resources */ = {isa = PBXBuildFile; fileRef = F151429613FAD42300AAC592 /* completions.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		F1513EB113F9AD9E00AAC592 /* swank-handler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "swank-handler.js"; sourceTree = "<group>"; };
 		F1513EB213F9AD9E00AAC592 /* swank-protocol.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "swank-protocol.js"; sourceTree = "<group>"; };
 		F151422B13F9E2B300AAC592 /* swank-utils.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "swank-utils.js"; sourceTree = "<group>"; };
+		F151429613FAD42300AAC592 /* completions.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = completions.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 		F151421F13F9E26E00AAC592 /* swank */ = {
 			isa = PBXGroup;
 			children = (
+				F151429613FAD42300AAC592 /* completions.js */,
 				F1513EB013F9AD9E00AAC592 /* swank-lisp.js */,
 				F1513EB113F9AD9E00AAC592 /* swank-handler.js */,
 				F1513EB213F9AD9E00AAC592 /* swank-protocol.js */,
@@ -261,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F151429713FAD42300AAC592 /* completions.js in Resources */,
 				F151422F13F9E2DF00AAC592 /* swank-lisp.js in Resources */,
 				F151423013F9E2DF00AAC592 /* swank-handler.js in Resources */,
 				F151423113F9E2DF00AAC592 /* swank-protocol.js in Resources */,

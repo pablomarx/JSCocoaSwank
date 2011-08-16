@@ -15,7 +15,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
   JSCocoaController *jsCocoa = [JSCocoaController sharedController];
-  NSArray *files = [NSArray arrayWithObjects:@"swank-utils", @"swank-lisp", @"swank-handler", @"swank-protocol", @"swank-server", nil];
+  NSArray *files = [NSArray arrayWithObjects:@"swank-utils", @"swank-lisp", @"swank-handler", @"swank-protocol", @"swank-server", @"completions", nil];
   NSBundle *mainBundle = [NSBundle mainBundle];
   for (NSString *file in files) {
     [jsCocoa evalJSFile:[mainBundle pathForResource:file ofType:@"js"]];

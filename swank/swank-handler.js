@@ -89,7 +89,7 @@ Handler.prototype.receive = function receive (message) {
     r.result = toLisp(this.executive.createRepl(), ["s:packageName", "s:prompt"]);
     break;
   case "swank:simple-completions":
-    r.result = S(":not-available");
+  	r.result = toLisp([completions(d.form.args[0]), d.form.args[0]]);
     break;
   case "swank:autodoc":
     r.result = S(":not-available");
