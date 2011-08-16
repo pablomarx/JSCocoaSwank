@@ -283,7 +283,7 @@ function readFromString (str) {
 
 function _conversionError (value, spec) {
   return new TypeError(
-    "error converting " + util.inspect(value) + " using spec " + util.inspect(spec));
+    "error converting " + inspect(value) + " using spec " + inspect(spec));
 }
 
 function naturalValue (v) {
